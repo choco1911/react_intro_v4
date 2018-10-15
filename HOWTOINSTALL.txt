@@ -1,0 +1,30 @@
+
+1. sudo npm install -g npx
+2. npx create-reat-app burger_builder # burger_builder - name of project and also reacts dir with the name
+
+3. to start app on not defalt port (default port: 3000)
+In package.json:
+"start": "PORT=3006 react-scripts star"
+or (may be) more general solution by @IsaacPak
+"start": "export PORT=3006 react-scripts start
+
+
+Inside that directory, you can run several commands:
+
+  yarn start
+    Starts the development server.
+
+  yarn build
+    Bundles the app into static files for production.
+
+  yarn test
+    Starts the test runner.
+
+  yarn eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd burger_builder
+  yarn start
